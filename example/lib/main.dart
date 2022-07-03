@@ -1,3 +1,4 @@
+import 'package:colorful_logger/colorful_logger.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,6 +59,11 @@ class _MyHomePageState extends State<MyHomePage> {
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
       _counter++;
+      ColorfulLogger.e("this is an error");
+      ColorfulLogger.i("this is info");
+      ColorfulLogger.n("this is normal text");
+      ColorfulLogger.s("this is success");
+      ColorfulLogger.w("this is a warning");
     });
   }
 
