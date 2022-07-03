@@ -20,7 +20,11 @@ ColorfulLogger.w("this is a warning");
 ```
 will print
 
-![expected log print](https://photos.app.goo.gl/mNLAiaMMTs3ndtT67)
+$\textcolor{red}{\text{- - - this is an error  - - -}}$ 
+$\textcolor{blue}{\text{- - - this is info  - - -}}$    
+$\textcolor{gray}{\text{- - - this is normal text  - - -}}$     
+$\textcolor{green}{\text{- - - this is success - - -}}$     
+$\textcolor{yellow}{\text{- - - this is warning - - -}}$
 
 ### Contributing
 

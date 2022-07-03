@@ -12,14 +12,15 @@ Colorful logger that highlight log print lines.
 Print debug logs with colorful highlights
 
 ```dart
-ColorfulLogger.e('this is an error!');
+ColorfulLogger.e("this is an error");
+ColorfulLogger.i("this is info");
+ColorfulLogger.n("this is normal text");
+ColorfulLogger.s("this is success");
+ColorfulLogger.w("this is a warning");
 ```
 will print
-```
 
-🐛 this is an error
-
-```
+![expected log print](https://photos.app.goo.gl/mNLAiaMMTs3ndtT67)
 
 ### Contributing
 
