@@ -20,10 +20,10 @@ ColorfulLogger.w("this is a warning");
 ```
 will print
 
-$\textcolor{red}{\text{- - - this is an error  - - -}}$ 
-$\textcolor{blue}{\text{- - - this is info  - - -}}$    
-$\textcolor{gray}{\text{- - - this is normal text  - - -}}$     
-$\textcolor{green}{\text{- - - this is success - - -}}$     
+$\textcolor{red}{\text{- - - this is an error  - - -}}$
+$\textcolor{blue}{\text{- - - this is info  - - -}}$
+$\textcolor{gray}{\text{- - - this is normal text  - - -}}$
+$\textcolor{green}{\text{- - - this is success - - -}}$
 $\textcolor{yellow}{\text{- - - this is warning - - -}}$
 
 ### Contributing
